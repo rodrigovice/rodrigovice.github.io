@@ -4,7 +4,11 @@ title:  "How to eat dark matter cores?"
 date:   2023-01-04
 categories: black holes, dark matter, light scalars
 ---
-![pacman_black_hole](/home/rodrigo/Documents/SVNs/BH_eats_BS/Taishi/letter/Pacman_press.png)
+![pacman_black_hole](/assets/figs1/Pacman_press.png)
+
+*Credit: Taishi Ikeda*
+
+
 
 The nature of dark matter remains one of the most exciting and challenging problems in physics. Models which postulate new light scalar particles (like "fuzzy" and "Bose-Einstein condensate" dark matter) are amongst the most well-motivated by particle physics, and seem to naturally solve (or alleviate) potential tension of the standard Cold Dark Matter (CDM) with small-scale observations (e.g., "cuspy halo'', "missing satellites", and "too big to fail" problems). 
 
@@ -29,3 +33,4 @@ Now, in a recent [Physical Review D Letters](https://journals.aps.org/prd/abstra
   
 
 More importantly, this Letter deals with the fundamental process of black hole accretion of a self-gravitating scalar field structure, which, while being such an elementary system, was never fully solved in the relativistic regime in the past.  
+
