@@ -16,9 +16,8 @@
 title: Rodrigo Vicente
 email: rvicente@ifae.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a Juan de la Cierva Postdoctoral Fellow, at Institut de Física d'Altes Energies (IFAE) 
-  in Barcelona, working on strong gravity and gravitational waves. I'm specially interested 
-  in using black holes and other compact objects to probe beyond the Standard Model physics.
+  Juan de la Cierva Postdoctoral Fellow at Institut de Física d'Altes Energies (IFAE) 
+  in Barcelona. Strong gravity and beyond Standard Model physics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "rodrigovice93"
