@@ -3,8 +3,7 @@ author:
   name: Rodrigo Vicente
   email: rvicente at ifae.es
 description: > # this means to ignore newlines until "show_excerpts:"
-  Juan de la Cierva Postdoctoral Fellow at Institut de Física d'Altes Energies (IFAE) in 
-  Barcelona, working on the interplay of strong gravity with BSM physics.
+  Juan de la Cierva Postdoctoral Fellow at IFAE
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -20,6 +19,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+ - blog.md
  - resume.md
  - contact.md
 

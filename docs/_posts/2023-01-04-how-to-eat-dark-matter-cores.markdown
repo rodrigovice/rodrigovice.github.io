@@ -2,7 +2,7 @@
 layout: post
 title:  "How to eat dark matter cores?"
 date:   2023-01-04
-categories: black holes, dark matter, light scalars
+categories: black_holes dark_matter light_scalars
 ---
 ![pacman_black_hole](/assets/figs1/Pacman_press.png)
 
