@@ -1,7 +1,7 @@
 title: Rodrigo Vicente
 author:
   name: Rodrigo Vicente
-  email: rvicente@ifae.es
+  email: rvicente at ifae.es
 description: > # this means to ignore newlines until "show_excerpts:"
   Juan de la Cierva Postdoctoral Fellow at Institut de Física d'Altes Energies (IFAE) in 
   Barcelona, working on the interplay of strong gravity with BSM physics.
@@ -19,8 +19,9 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - resume.md
+ - contact.md
 
 # Build settings
 markdown: kramdown
