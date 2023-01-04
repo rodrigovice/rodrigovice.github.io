@@ -4,13 +4,15 @@ title: Contact
 permalink: /contact/
 ---
 
+---
+
 ##### Address:
 
 Edifici Cn, Campus UAB
 
 08193 Bellaterra (Barcelona), Spain
 
----
+
 
 ##### E-mail:
 
