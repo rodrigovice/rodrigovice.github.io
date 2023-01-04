@@ -13,7 +13,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    - { platform: inspire, user_url: "https://inspirehep.net/authors/1418746"}
+#   - { platform: inspire, user_url: "https://inspirehep.net/authors/1418746"}
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=sEEKTLcAAAAJ&hl=en" }
     - { platform: twitter,        user_url: "https://twitter.com/rodrigovice93" }
 
