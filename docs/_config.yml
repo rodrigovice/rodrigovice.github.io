@@ -2,10 +2,9 @@ title: Rodrigo Vicente
 author:
   name: Rodrigo Vicente
   email: rvicente at ifae.es
-description:   # this means to ignore newlines until "show_excerpts:"
-<p align="right">
+description: > # this means to ignore newlines until "show_excerpts:"
 strong gravity & black hole physics
-</p>
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
