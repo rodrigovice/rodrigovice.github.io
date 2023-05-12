@@ -2,8 +2,8 @@ title: Rodrigo Vicente
 author:
   name: Rodrigo Vicente
   email: rvicente at ifae.es
-description:  # this means to ignore newlines until "show_excerpts:"
-  <div style="text-align: right"> strong gravity & black hole physics </div>
+description: >  # this means to ignore newlines until "show_excerpts:"
+   strong gravity & black hole physics
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,9 +12,9 @@ minima:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
-  social_links:
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=sEEKTLcAAAAJ&hl=en" }
-    - { platform: twitter,        user_url: "https://twitter.com/rodrigovice93" }
+#  social_links:
+#    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=sEEKTLcAAAAJ&hl=en" }
+#    - { platform: twitter,        user_url: "https://twitter.com/rodrigovice93" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
