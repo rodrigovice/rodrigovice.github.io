@@ -8,12 +8,12 @@ permalink: /contact/
 
 ##### Address:
 
-Edifici Cn, Campus UAB
+Science Park 904
 
-08193 Bellaterra (Barcelona), Spain
+1090GL Amsterdam, Netherlands
 
 
 
 ##### E-mail:
 
-rvicente at ifae.es
+r.l.lourencovicente at uva.nl
