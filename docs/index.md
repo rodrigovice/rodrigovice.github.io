@@ -2,7 +2,7 @@
 layout: page
 ---
 <p align="justify">
-Welcome to my home page! I'm a Postdoctoral Fellow at the <a href="https://www.grappa.amsterdam/">GRavitation AstroParticle Physics Amsterdam (GRAPPA)</a>. <br>
+I am a Postdoctoral Fellow at the <a href="https://www.grappa.amsterdam/">GRavitation AstroParticle Physics Amsterdam (GRAPPA)</a>. <br>
 <br>
 My work focuses on strong gravity, black holes, and gravitational waves. I'm especially interested in the interplay between strong gravity and beyond the Standard Model physics, and in using precision gravitational-wave astronomy to unveil what makes up dark matter. All observational evidence for dark matter comes from its interaction with gravity. By connecting us to the most extreme gravitational fields in the Universe (in the surroundings of black holes and neutron stars), gravitational waves offer us the most promising way to shed light on the long-standing problem of the nature of dark matter. <br>
 <br>
