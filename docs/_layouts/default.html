@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Rodrigo Vicente home">Rodrigo Vicente<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/research/' | relative_url }}"{% if page.nav == 'research' %} aria-current="page"{% endif %}>research</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.nav == 'publications' %} aria-current="page"{% endif %}>publications</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.nav == 'news' %} aria-current="page"{% endif %}>news</a>
+      <a href="{{ '/resume/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>about</a>
+      <a href="{{ '/contact/' | relative_url }}"{% if page.nav == 'contact' %} aria-current="page"{% endif %}>contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">{{ content }}</main>
+  {% include footer.html %}
+</body>
+</html>

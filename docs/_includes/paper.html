@@ -1,0 +1,5 @@
+{% assign heading_level = include.level | default: 3 %}
+<article class="paper" data-paper data-topic="{{ paper.topic | escape }}">
+  <div class="paper-year">{{ paper.year }}<span>{{ paper.topic }}</span></div>
+  <div class="paper-body"><p class="paper-venue">{{ paper.venue }}</p><h{{ heading_level }}><a href="{{ paper.url }}">{{ paper.title }} <span aria-hidden="true">↗</span></a></h{{ heading_level }}><p>{{ paper.summary }}</p><p class="paper-authors">{{ paper.authors }}</p></div>
+</article>

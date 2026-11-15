@@ -1,30 +1,5 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
-  </div>
-
+<footer class="site-footer wrap">
+  <div><a class="footer-name" href="{{ '/' | relative_url }}">Rodrigo Vicente</a><p>strong gravity. gravitational waves. dark matter</p></div>
+  <div class="footer-links"><a href="https://inspirehep.net/authors/1418746">INSPIRE <span aria-hidden="true">↗</span></a><a href="mailto:{{ site.email }}">Email <span aria-hidden="true">↗</span></a><a href="{{ '/feed.xml' | relative_url }}">RSS <span aria-hidden="true">↗</span></a></div>
+  <p class="footer-location">GRAPPA · University of Amsterdam</p>
 </footer>

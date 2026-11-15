@@ -1,0 +1,27 @@
+- title: "Searching for the effects of (dark) matter in the observed GW signals"
+  summary: >-
+    We built waveform models and tested LIGO–Virgo–KAGRA signals for the effects of gas and ultralight scalars (a compelling dark matter candidate).
+  links:
+    - label: "Gaseous environments"
+      citation: "PRL 132, 251401 (2024)"
+      url: "https://doi.org/10.1103/PhysRevLett.132.251401"
+    - label: "Ultralight scalar field environments"
+      citation: "PRL 136, 191402 (2026)"
+      url: "https://doi.org/10.1103/fv9z-zkxx"
+
+- title: "Modelling extremely relativistic inspirals in (dark) matter"
+  summary: >-
+    We used Einstein’s equations to model how (dark) matter changes inspiral signals, and what environmental properties mHz interferometers (such as LISA!) could measure.
+  links:
+    - label: "EMRIs in ultralight dark matter structures"
+      citation: "PRL 133, 121404 (2024)"
+      url: "https://doi.org/10.1103/PhysRevLett.133.121404"
+    - label: "EMRIs in collisionless environments"
+      citation: "PRL 135, 211401 (2025)"
+      url: "https://doi.org/10.1103/s4wh-x6c4"
+    - label: "Eccentric EMRIs in scalar clouds (relativistic resonances)"
+      citation: "PRL (2026, accepted)"
+      url: "https://doi.org/10.1103/4f66-zbcw"
+    - label: "EMRIs in thin accretion disks (relativistic Lindblad resonances)"
+      citation: "PRD 113, 084028 (2026)"
+      url: "https://doi.org/10.1103/jcv5-ssfd"

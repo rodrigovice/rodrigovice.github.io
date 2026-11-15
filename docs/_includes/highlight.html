@@ -1,0 +1,9 @@
+<article class="highlight">
+  <h3>{{ highlight.title | escape }}</h3>
+  <p>{{ highlight.summary | escape }}</p>
+  <ul class="highlight-links" aria-label="Related publications">
+    {% for link in highlight.links %}
+    <li><a href="{{ link.url | escape }}">{{ link.label | escape }}{% if link.citation %} — {{ link.citation | escape }}{% endif %} <span aria-hidden="true">↗</span></a></li>
+    {% endfor %}
+  </ul>
+</article>

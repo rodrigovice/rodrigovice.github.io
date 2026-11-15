@@ -1,0 +1,14 @@
+---
+layout: construction
+title: Selected publications
+nav: publications
+eyebrow: Papers & results
+intro: My work on strong gravity, gravitational waves, and dark matter. The complete publication record is available on INSPIRE.
+permalink: /publications/
+---
+<a class="text-link archive-link" href="https://inspirehep.net/authors/1418746">Complete publication list on INSPIRE <span aria-hidden="true">↗</span></a>
+{% if site.data.papers.size > 0 %}
+<div class="paper-tools" data-paper-tools hidden><div class="filters" role="group" aria-label="Filter publications by topic"><button type="button" data-filter="all" aria-pressed="true">All topics</button>{% assign topics = site.data.papers | map: 'topic' | uniq %}{% for topic in topics %}<button type="button" data-filter="{{ topic | escape }}" aria-pressed="false">{{ topic }}</button>{% endfor %}</div><label class="search-label">Search papers<input type="search" data-paper-search placeholder="Title, author, keyword…"></label></div>
+<p class="filter-status" data-paper-status role="status" hidden></p>
+<div class="paper-list">{% for paper in site.data.papers %}{% include paper.html level=2 %}{% endfor %}</div>
+{% else %}{% include results-empty.html level=2 %}{% endif %}

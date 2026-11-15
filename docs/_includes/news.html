@@ -1,0 +1,5 @@
+{% assign heading_level = include.level | default: 3 %}
+<article class="news-row">
+  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+  <div><p class="eyebrow">{{ post.category }}</p><h{{ heading_level }}><a href="{{ post.url | relative_url }}">{{ post.title }} <span aria-hidden="true">↗</span></a></h{{ heading_level }}>{% if include.excerpts %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}</div>
+</article>
