@@ -1,6 +1,6 @@
-- title: "Searching for the effects of (dark) matter in the observed GW signals"
+- title: "Searching for the effects of matter in GW signals"
   summary: >-
-    We built waveform models and tested LIGO–Virgo–KAGRA signals for the effects of gas and ultralight scalars (a compelling dark matter candidate).
+    We built waveform models and tested LIGO–Virgo–KAGRA signals for the effects of gas and ultralight scalar fields (a compelling dark matter candidate).
   links:
     - label: "Gaseous environments"
       citation: "PRL 132, 251401 (2024)"
